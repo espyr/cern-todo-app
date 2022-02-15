@@ -13,13 +13,21 @@ GET             api/todos/categoryId/:id                retrieve all Todos of a 
 GET	            /api/todos      	                    retrieve all the Todos
 
 GET	            /api/categories/:id	                    retrieve a category by :id
+
 GET	            /api/categories      	                retrieve all the categories
+
 GET	            /api/todos/:id	                        retrieve a Todo by :id
+
 PUT	            /api/todos/:id	                        update a Todo by :id
+
 PUT	            /api/categories/:id	                    update a category by :id
+
 DELETE	        /api/todos/:id	                        delete a Todo by :id
+
 DELETE	        /api/todos                              delete all Todos
+
 DELETE	        /api/categories/:id	                    delete a category by :id
+
 DELETE	        /api/categories                         delete all categories
 
 For testing I used Postman
