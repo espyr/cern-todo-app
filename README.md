@@ -5,9 +5,13 @@ These are APIs that we need to provide:
 
 Methods	Urls	Actions
 POST	        /api/todos/:categoryId	                create new todo for a category
+
 POST	        /api/categories     	                create new category
-GET             api/todos/categoryId/:id                retrieve all Todos of a categoty
+
+GET             api/todos/categoryId/:id                retrieve all Todos of a category
+
 GET	            /api/todos      	                    retrieve all the Todos
+
 GET	            /api/categories/:id	                    retrieve a category by :id
 GET	            /api/categories      	                retrieve all the categories
 GET	            /api/todos/:id	                        retrieve a Todo by :id
